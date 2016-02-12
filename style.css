@@ -15,10 +15,20 @@ body {
 }
 
 .centered{
-  padding: 15px 15px;
+  padding: 5px 5px;
   text-align: center;
-  margin: 20px 20px;
+  margin: 5px 5px;
 }
+
+
+.centeredImg{
+  padding: 5px 5px;
+  text-align: center;
+  margin: 5px 5px;
+  height: 300px;
+  width: 300px;
+}
+
 
 .fav_item {
     width: 400px;
@@ -37,8 +47,9 @@ body {
      padding: 0px 0px;
      margin: 0px 0px;
      width: 400px;
+     height: 600px;
      display: inline-block;
-    text-align: center;
+     text-align: center;
 }
 
 p.num {
@@ -64,7 +75,7 @@ p.favName {
     display: block;
 }
 
-#fav1img {
-    height=300px;
-    display: none;
+
+.imgdiv {
+     height=350px;
 }
