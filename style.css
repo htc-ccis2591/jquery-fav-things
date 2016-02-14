@@ -64,3 +64,30 @@ br {
 a {
     font-style: italic;
 }
+
+
+/* tablet and phone */
+@media only screen and (max-width: 768px ) {
+    .thing {
+        border: 2px solid;
+        display: inline;
+    }
+    
+    .leftside {
+        float: none;
+        width: auto;
+    }
+    
+    .rightside {
+        margin-left: auto;
+    }
+    
+    .innerdiv {
+        text-align: center;
+        min-height: inherit;
+    }
+    
+    img {
+        float: none;
+    }
+}
