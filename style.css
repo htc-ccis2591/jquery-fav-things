@@ -1,0 +1,62 @@
+body {
+    background-color: #EEEEEE;
+    font-family: tahoma, verdana, arial, sans-serif;
+    color: darkblue;
+}
+
+h1 {
+    background-color: #000066;
+    color: white;
+    padding: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+h2 {
+    font-style: italic;
+}
+
+p.thing {
+    clear: both;
+    margin-left: 15px;
+    font-size: 16pt;
+}
+
+p.desc {
+    margin-left: 20px;
+    font-style: italic;
+}
+
+p.descHide {
+    display: none;
+}
+
+.leftside{
+    width: 400px;
+    float: left;
+}
+
+.rightside {
+    padding: 10px;
+    margin-left:400px;
+    min-height: 250px;
+}
+
+.innerdiv {
+    background-color: #DDDDFF;
+    box-shadow: 5px 5px 5px #000099;
+    padding: 10px;
+}
+
+img {
+    margin: 10px;
+    float: right;
+}
+
+br {
+    clear: both;
+}
+
+.hideMe {
+    display: none;
+}
