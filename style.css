@@ -39,13 +39,13 @@ p.descHide {
 .rightside {
     padding: 10px;
     margin-left:400px;
-    min-height: 250px;
 }
 
 .innerdiv {
     background-color: #DDDDFF;
     box-shadow: 5px 5px 5px #000099;
     padding: 10px;
+     min-height: 250px;
 }
 
 img {
@@ -59,4 +59,8 @@ br {
 
 .hideMe {
     display: none;
+}
+
+a {
+    font-style: italic;
 }
