@@ -11,12 +11,4 @@ $(function() {
     $('.favorite').on('click', function(){
         $(this).siblings().slideToggle();
     });
-
-    
-    
-    
-    
-    
-    
-    
 });

@@ -25,3 +25,7 @@ div {
     padding-left: 150px;
     padding-bottom: 25px;
 }
+
+.focus {
+    text-shadow: 3px 3px #ff0000;
+}
