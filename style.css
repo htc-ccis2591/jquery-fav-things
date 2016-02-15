@@ -1,0 +1,27 @@
+/* fonts from cssfontstack.com */
+/* color pallete from http://paletton.com/#uid=52N0z0kllllaFw0g0qFqFg0w0aF */
+
+body {
+    background-color: #0E464E;
+    color: #ffffff;
+    color: #ffffff;
+}
+
+.button {
+    display: block;
+    background-color: #378B2E;
+    margin: 200px;
+    padding: 150px;
+    color: #ffffff;
+    text-align: center;
+    font-family: "Lucida Bright",Georgia,serif;
+    font-size: 5em;
+    font-style: italic;
+    text-shadow: 2px;
+}
+
+div {
+    margin: 50px;
+    padding-left: 150px;
+    padding-bottom: 25px;
+}
