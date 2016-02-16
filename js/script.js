@@ -22,7 +22,7 @@ $(function() {
     var fav1HTML = '<div class="fav_number" id="fav1">' +
         '<p class="num showClass">1</p><p class="favName showClass">Critters</p>' +
         '<h2 class="centered hideClass">Pets are like potato chips, you can never have just one.</h2>' +
-        '<div class="imgdiv hideClass"><img class="centeredImg" src="images/kittenlittle.png"><img class="centeredImg" src="images/newzealand.png" ><img class="centeredImg" src="images/mouse.jpg"></div>' +
+        '<div class="imgdiv hideClass"><img class="centeredImg" src="images/kittenlittle.png"><img class="centeredImg" src="images/mouse.jpg" ><img class="centeredImg" src="images/sittingpretty.png"><img class="centeredImg" src="images/cuddlemice.png"><img class="centeredImg" src="images/helpme.png" ><img class="centeredImg" src="images/kittensOG.png"></div>' +
         '<p class="centered hideClass">I have two new little kittens,  Luca and Linus. They are adorable little monsters.' +
         'I also have two mice named Ellie and Lucy.  The four of them get along splendidly.</p>' +
         '</div>';
@@ -30,31 +30,31 @@ $(function() {
     var fav2HTML = '<div class="fav_number" id="fav2">' +
         '<p class="num showClass">2</p><p class="favName showClass">Framily</p>' +
         '<h2 class="centered hideClass">A friend is someone who knows you and loves you just the same.</h2>' +
-        '<div class="imgdiv hideClass"><img class="centeredImg" src="images/family.png" ><img class="centeredImg" src="images/kittenlittle.png"></div>' +
+        '<div class="imgdiv hideClass"><img class="centeredImg" src="images/family.png" ><img class="centeredImg" src="images/cabin.png"><img class="centeredImg" src="images/bbq.png"><img class="centeredImg" src="images/CRAFT.png"><img class="centeredImg" src="images/gophers.png"><img class="centeredImg" src="images/fair.png"></div>' +
         '<p class="centered hideClass">I would not be who I am today without all my family and friends. I love every chance I get to visit with and catch up or play games. </p></div>';
 
     var fav3HTML = '<div class="fav_number" id="fav3">' +
         '<p class="num showClass">3</p><p class="favName showClass">Travel</p>' +
         '<h2 class="centered hideClass">Not all those who wander are lost.</h2>' +
-        '<div class="imgdiv hideClass"><img class="centeredImg" src="images/newzealand.png" ></div>' +
+        '<div class="imgdiv hideClass"><img class="centeredImg" src="images/newzealand.png" ><img class="centeredImg" src="images/states.png"><img class="centeredImg" src="images/sedona.png"><img class="centeredImg" src="images/glacier.png"><img class="centeredImg" src="images/fiji.png"><img class="centeredImg" src="images/sweden.png"></div>' +
         '<p class="centered hideClass">I love to travel!  My favorite trip so far has been a road trip through the south island of New Zealand with a stop over in Fiji. I hope to be able to visit every state and every continent in my lifetime.</p></div>';
 
     var fav4HTML = '<div class="fav_number" id="fav4">' +
         '<p class="num showClass">4</p><p class="favName showClass">Baseball</p>' +
         '<h2 class="centered hideClass">Go Cubs Go!</h2>' +
-        '<div class="imgdiv hideClass"><img class="centeredImg" src="images/baseball.png" ></div>' +
+        '<div class="imgdiv hideClass"><img class="centeredImg" src="images/ball.png" ><img class="centeredImg" src="images/mesa.png"><img class="centeredImg" src="images/stadiums.png"><img class="centeredImg" src="images/champions.png"><img class="centeredImg" src="images/baseball.png"></div>' +
         '<p class="centered hideClass">As a transplant from the Chicago area, I am a big Cubs fan - for better or worse.  This goes well with my love of travel, but I hope to visit all the baseball stadiums in the US. So far I have 9 of 30 with at least 5 more lined up this summer!</p></div>';
 
     var fav5HTML = '<div class="fav_number" id="fav5">' +
         '<p class="num showClass">5</p><p class="favName showClass">Reading</p>' +
         '<h2 class="centered hideClass">Reading a good book is like taking a journey...</h2>' +
-        '<div class="imgdiv hideClass"><img class="centeredImg" src="images/hpBooks.jpg" ></div>' +
+        '<div class="imgdiv hideClass"><img class="centeredImg" src="images/belle.jpg" ><img class="centeredImg" src="images/hpBooks.jpg" ><img class="centeredImg" src="images/classics.jpg" ><img class="centeredImg" src="images/got.jpg" ><img class="centeredImg" src="images/gringotts.png" ></div>' +
         '<p class="centered hideClass">I love to read!  I have read and enjoyed booked from many genres but the Harry Potter series is probably my all time favorite.  There are too many others that I like to list here!.</p></div>';
 
     var fav6HTML = '<div class="fav_number" id="fav6">' +
         '<p class="num showClass">6</p><p class="favName showClass">Creativity</p>' +
         '<h2 class="centered hideClass">Creativity is intelligence having fun!</h2>' +
-        '<div class="imgdiv hideClass"><img class="centeredImg" src="images/bacon.jpg" ></div>' +
+        '<div class="imgdiv hideClass"><img class="centeredImg" src="images/booties.png" ><img class="centeredImg" src="images/paperweight.png" ><img class="centeredImg" src="images/minions.png" ><img class="centeredImg" src="images/glass.png" ><img class="centeredImg" src="images/bacon.jpg" ><img class="centeredImg" src="images/chocolate.png" ></div>' +
         '<p class="centered hideClass">I love to be creative in many ways.  I love trying to cook new things, knitting and crocheting, painting, making paper crafts and decorations, planning parties, taking photographs and many more! </p></div>';
 
 
