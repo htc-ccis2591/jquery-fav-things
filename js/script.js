@@ -57,8 +57,10 @@ $(function() {
         '<div class="imgdiv hideClass"><img class="centeredImg" src="images/booties.png" ><img class="centeredImg" src="images/paperweight.png" ><img class="centeredImg" src="images/minions.png" ><img class="centeredImg" src="images/glass.png" ><img class="centeredImg" src="images/bacon.jpg" ><img class="centeredImg" src="images/chocolate.png" ></div>' +
         '<p class="centered hideClass">I love to be creative in many ways.  I love trying to cook new things, knitting and crocheting, painting, making paper crafts and decorations, planning parties, taking photographs and many more! </p></div>';
 
+    // array of html for .each to load
+    var allFavorites = [fav1HTML,fav2HTML,fav3HTML,fav4HTML,fav5HTML,fav6HTML];
 
-
+    
     /////////////////////////////////////////
     /////  build the helper functions  //////
     /////////////////////////////////////////
@@ -68,28 +70,26 @@ $(function() {
     addFavoriteThings = function() {
         //add title
         $('body').append('<h1 class="centered">Click to see more details!</h1>');
-        //add >=5 items
-        $('body').append(fav1HTML);
-        $('body').append(fav2HTML);
-        $('body').append(fav3HTML);
-        $('body').append(fav4HTML);
-        $('body').append(fav5HTML);
-        $('body').append(fav6HTML);
-
+        //add >=5 items    
+        $.each(allFavorites, function(i,v){
+            $('body').append(v)
+        });
+        //start all images as hidden
         $('img').hide();
 
         //function to switch display on clicks
         //needs to be made after the items are added to the dom
         var $favItems = $('.fav_number');
-
         $favItems.on('click', function() {
+            var slideshow = $(this).children('.imgdiv');
+            var slides = $(slideshow).children('img');
+            
             $(this).children('.showClass').removeClass('showClass').addClass('tempClass');
             $(this).children('.hideClass').removeClass('hideClass').addClass('showClass');
             $(this).children('.tempClass').removeClass('tempClass').addClass('hideClass');
             //make first image visible and grab div
             $(this).children('.imgdiv').children('img:first').show().fadeTo(0, 1);
-            var slideshow = $(this).children('.imgdiv');
-            var slides = $(slideshow).children('img');
+
             //if details are open, set up interval for looping otherwise clear it
 
             if (slideshow.hasClass('showClass') && slideshow.children().length > 1) {
@@ -100,7 +100,6 @@ $(function() {
                     slides.hide();
                     slideshow.children('img:first').show().fadeTo(0, 1);
                 }
-
 
                 // Now make a new one timer and save it on the DOM element, interval will loop every 3 seconds
                 this.slideshowInterval = setInterval(function() {
