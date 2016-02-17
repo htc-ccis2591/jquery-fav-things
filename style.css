@@ -1,0 +1,81 @@
+.purple_green {
+    color: #6D1352 !important;
+    background-color: #D8D362 !important;
+}
+
+.purple_green_stripe {
+    color: #6D1352 !important;
+    background-image: url("images/background4.1.png");
+}
+
+body {
+    padding-top: 2px;
+    font-family: 'Century Gothic', CenturyGothic, sans-serif;
+}
+
+.centered {
+    padding: 5px 5px;
+    text-align: center;
+    margin: 5px 5px;
+}
+
+.centeredImg {
+    padding: 5px 5px;
+    text-align: center;
+    margin: 5px 5px;
+    height: 300px;
+    width: 300px;
+}
+
+.fav_item {
+    width: 400px;
+}
+
+.button {
+    background-color: white;
+    color: #6D1352;
+    border: 3px solid #6D1352;
+    border-radius: 12px;
+    font-size: 40px;
+    font-family: 'Century Gothic', CenturyGothic, sans-serif;
+}
+
+.fav_number {
+    padding: 0px 0px;
+    margin: 0px 0px;
+    width: 400px;
+    height: 600px;
+    display: inline-block;
+    text-align: center;
+}
+
+p.num {
+    text-align: center;
+    font-size: 400px;
+    margin: 0px 0px;
+    padding: 0px 0px;
+    text-align: center;
+}
+
+p.favName {
+    text-align: center;
+    font-size: 50px;
+    margin: 0px 0px;
+    padding: 0px 0px;
+}
+
+.hideClass {
+    display: none;
+}
+
+.showClass {
+    display: block;
+}
+
+.imgdiv {
+    height: 350px;
+}
+
+h1 {
+    font-size: 60px;
+}
