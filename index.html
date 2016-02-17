@@ -1,13 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>A Favorite Thing</title>
+    <title>Daglins Favorite Thing</title>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-
-    <p>Replace me with your favorite thing HTML.</p>
-
+    <header>
+        <!--Main heading that always shows-->
+        <h1>My Favorite Things</h1>
+    </header>
+    <section>
+        <!--Seccond Heading, and button that go away-->
+        <h2 class="heading">Click the button below to view the list</h2>
+        <button>Show</button>
+        <!--Once the button is clicked this div is shown-->
+        <div class="hidden">
+            <p class="medHead">These are my favorite things</p>
+            <p class="smlHead">Click on any one of them for details</p>
+            <ul>
+                <!--empy ul, gets populated by jquerry-->
+            </ul>
+        </div>
+    </section>  
+    
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>
+
+

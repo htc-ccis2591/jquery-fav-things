@@ -1,0 +1,118 @@
+/*Loading custom font*/
+@font-face {
+    font-family: roboto;
+    src: url(font/RobotoCondensed-Light.ttf);
+}
+
+@font-face {
+    font-family: robotoReg;
+    src: url(font/RobotoCondensed-Regular.ttf);
+}
+
+body {
+    
+    background-color: #EFEFEF;
+}
+
+h1 {
+    font-family: roboto;
+    font-weight: normal;
+    color: white;
+    text-align: center;
+    box-shadow: 0px 3px 5px #888888;
+    padding: 10px;
+    margin: auto;
+    margin-top: 50px;
+    width: 20%;
+    background: #2196F3;
+    border-radius: 2px;
+}
+
+.heading {
+    font-family: robotoReg;
+    font-size: 30px;
+    color: #757575;
+    text-align: left;
+    padding-top: 100px;
+    margin-left: 150px;
+    position: relative;
+}
+
+.medHead {
+    font-family: robotoReg;
+    font-size: 30px;
+    color: #757575;
+    text-align: left;
+    padding-top: 100px;
+    margin-left: 170px;
+    width: 100%;
+}
+
+.smlHead {
+    font-size: 22px;
+    color: #757575;
+    margin-left: 175px;
+    padding-bottom: 25px;
+    width: 100%;
+}
+button {
+    font-family: robotoReg;
+    font-size: 24px;
+    color: #FFFFFF;
+    background: #2196F3;
+    border: none;
+    box-shadow: 0px 3px 5px #888888;
+    padding: 7px 35px;
+    cursor: pointer;
+    margin-left: 150px;
+    margin-top: 10px;
+    transition-duration: 0.5s;
+    border-radius: 2px;
+    min-width: 122px;
+    position: relative;
+}
+button:hover {
+    background: #40C4FF;
+    box-shadow: 0px 4px 10px #888888;
+}
+
+p {
+    font-family: roboto;
+    color: #FFFFFF;
+    font-size: 17px;
+    margin-left: 25px;
+    width: 75%;
+}
+
+li {
+    font-family: robotoReg;
+    color: #424242;
+    font-size: 22px;
+    margin-left: 200px;
+    margin-right: 900px;
+    padding-bottom: 15px;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+li:hover {
+    color: #FFFFFF;
+    background: #40C4FF;
+    margin-right: 500px;
+    box-shadow: 0px 4px 10px #888888;
+}
+.clicked{
+    background: #2196F3;
+    color: #FFFFFF;
+    margin-right: 500px;
+    box-shadow: 0px 3px 5px #888888;
+    transition-duration: 0.5s;
+    border-bottom: 2px solid #FFFFFF;
+}
+
+.hidden {
+    display: none;
+}
+
+img{
+    margin-left: 85%;
+}
