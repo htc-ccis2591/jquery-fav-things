@@ -1,0 +1,29 @@
+body {
+    background-color: #000;
+    font-family: 'Oswald', 'Futura', sans-serif;
+    margin: 4;
+    padding: 10;
+}
+
+header {
+    color: darkslategrey;
+    text-align: center;
+    
+}
+
+#mPage {
+      background-color: #034500;
+    margin: 0 auto 0 auto;
+    position: relative;
+    text-align: center;
+    border-radius: 3%;
+  
+    
+}
+
+#detail {
+    position:relative;
+    padding: 10px 25px;
+    
+    
+}
