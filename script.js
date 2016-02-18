@@ -13,8 +13,7 @@ $(function () {
     $("h2").on("click", function() {
         $("p").hide();
         $("img").hide();
-        $(this).next().next().show();
-        $(this).next().show();
+        $(this).siblings().show();
         $("h1").remove();
     });
 });
