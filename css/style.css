@@ -1,0 +1,103 @@
+body
+{
+    background-color: lightgray;
+    margin: 0;
+    padding: 0;
+}
+
+h1
+{
+    width: 555px;
+    color: darkslategrey;
+    font-size: 35px;
+    text-align: center;
+    letter-spacing: .3em;
+    display: inline-block;
+    margin: 0 0 23px 0;
+    text-shadow: 2px 2px 1px black;
+
+}
+
+button
+{
+    width: 550px;
+    font-size: 25px;
+    float: none;
+}
+
+button:hover
+{
+    background-color: dodgerblue;
+    color: maroon;
+}
+
+p
+{
+    font-size: 25px;
+    color: black;
+    font-weight: bold;
+}
+
+
+ h4
+{
+    width: 550px;
+    text-align: center;
+    font-size: 25px;
+    margin: 5px auto;    
+    padding: 10px 0 0 10px;
+    border-bottom: 7px solid black;
+    border-left: 7px solid maroon;
+    background-color: darkslategrey;
+    color: lightgrey; 
+}
+
+h4:hover
+{
+    background-color: dodgerblue;
+    color: red;
+}
+
+
+@media only screen and (max-width: 500px)
+{
+    body 
+    {
+        background-color: lightgrey;
+    }
+    #page 
+    {
+        max-width: 480px;
+    }
+}
+
+@media only screen and (min-width: 501px) and (max-width: 767px) 
+{
+    #page 
+    {
+        max-width: 480px;
+        margin: 20px auto 20px auto;
+       
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 959px) 
+{
+    #page 
+    {
+        max-width: 480px;
+        margin: 20px auto 20px auto;
+    }
+}
+
+
+/* Larger screens act like a demo for the app */
+
+@media only screen and (min-width: 960px) 
+{
+    #page 
+    {
+        max-width: 480px;
+        margin: 20px auto 20px auto;
+    }
+}
