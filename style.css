@@ -1,29 +1,68 @@
 body {
-    background-color: #000;
+    background: #050d34 url(body-bg.jpg) no-repeat center top;
     font-family: 'Oswald', 'Futura', sans-serif;
-    margin: 4;
-    padding: 10;
+    margin: 50px;
+    padding: 10px 5px;
 }
 
 header {
-    color: darkslategrey;
+    color: #5C8B8F;
     text-align: center;
+    padding-bottom: 25px;
     
 }
 
 #mPage {
-      background-color: #034500;
-    margin: 0 auto 0 auto;
+    background-color: #466C78;    
+    padding: 25px;
+    margin: 50px;
+    border: 50px;
+    height: auto;
+    border-width:thick;
     position: relative;
     text-align: center;
-    border-radius: 3%;
+    border-radius: 20%;
+    border-style: inset;
+    border-color: #362427;
   
     
 }
+.favItems {
+    background-color: #466C78;    
+    padding: 10px;
+    border: 50px;
+    height: auto;
+    width: auto;
+    margin: 50px;
+    border-width:thick;
+    position: inherit;
+    text-align: center;
+    border-radius: 10%;
+    border-style: inset;
+    border-color: #362427;
+    
+}
 
-#detail {
-    position:relative;
-    padding: 10px 25px;
+h2{
+    text-shadow: 0 0 3px #043734;
+    text-decoration-color: #2A1627;
     
+}
+h3 {
+    text-shadow: 0 0 2px #043734;
+    text-decoration-color: #2A1627;
     
+}
+
+h4{
+    text-shadow: 0 0 1px #043734;
+    text-decoration-color: #2A1627; 
+    
+}
+
+
+img {
+    display: block;
+    max-width:100%;
+    max-height:100%;
 }
