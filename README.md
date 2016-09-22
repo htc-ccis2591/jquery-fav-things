@@ -9,7 +9,6 @@ Gather some information on your favorite things.  One part of that information w
 - Use JavaScript coding best practices for variable and function definition
 - Use jQuery to build HTML to add items to the DOM
 - Use jQuery to handle click events
-- Show and present your code to the class in 8-10 minutes
 
 
 ## GitHub Repository
