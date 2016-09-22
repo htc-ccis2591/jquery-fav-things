@@ -13,7 +13,7 @@ Gather some information on your favorite things.  One part of that information w
 
 
 ## GitHub Repository
-https://github.com/htc-ccis2591/jquery-project1/
+https://github.com/htc-ccis2591/jquery-fav-things/
 
 As usual you will need to fork and clone this repository to begin the assignment, and submit a pull request for grading when the assignment is complete.  
 
@@ -48,14 +48,6 @@ It is also expected that you will use functions to organize your code and to avo
 - Be sure to test the show/hide of your sections in different orders to ensure that they are work correctly.
 - Don't forget to include something non-textual for each favorite thing.
 - I don't expect much beauty, but things shouldn't be squished into the edges of the page either. Consider using [Bootstrap](http://getbootstrap.com/) to get a quick edge on layout.
-
-## Presentation
-The project must be submitted with a pull request before the start of class the day that it is due.  In-class, you will show your page to the class as published on GitHub, and walk through what your page does and the code that you wrote. The presentation is limited to 10 minutes, with a hard rude stop if you run over.  However you also do not want your presentation to be too short or less than 8 minutes.
-
-### What should you cover?
-- Who you are!!! Do not forget to introduce yourself.  It may help to write your name on the board so people do not mishear.
-- What your page does. Yes, all of them basically do the same thing.  It’s ok. Pretend that someone comes in and flash clears everyone’s memory between presentations. You need to say it all again.
-- The favorite things are super cool and all, but remember to focus on the code.  
 
 ## Extras
 Work on your page layout & presentation. Ensure the page is responsive and looks good on various display sizes. Use a nice color scheme that suits your content, and doesn't look mismatched or gaudy.  [Paleton](http://paletton.com/) can help.
