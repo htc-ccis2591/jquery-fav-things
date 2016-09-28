@@ -5,8 +5,8 @@ $(function () {
 	
 	//$("p, img").addClass("hide");
 	//create favorites object
-	var $liFavs = $('div#favorites');
-    $liFavs.hide();
+	var $secFavs = $('div#favorites');
+    $secFavs.hide();
 	
 	//create images object
     var $favImg = $('img');
@@ -18,7 +18,7 @@ $(function () {
     function introClick() {
         //console.log("you clicked");
         //console.log($liFavs);
-        $liFavs.fadeIn(1500);
+        $secFavs.fadeIn(1500);
         var myHeaders = $('h1');
         var secondHeader = myHeaders[1];
         //console.log(myHeaders);
