@@ -38,7 +38,7 @@ __Important Note:__  Yes, jQuery has a UI component to do this.  No you cannot u
 ## Code Structure
 You will use jQuery to set up click events to trigger the initial favorites display and to add/remove your CSS class to hide the detail information on each thing.
 
-It is also expected that you will use functions to organize your code and to avoid repetition (copy/paste) of code.  At a minimum, I would expect a function that builds the HTML one favorite thing that is parameterized so that you do not repeat that code over and over to build each item.  This will also make it easier for you to change or modify that layout later if needed or desired.
+It is also expected that you will use functions to organize your code and to avoid repetition (copy/paste) of code.  At a minimum, I would expect a function that builds the HTML for one favorite thing that is parameterized so that you do not repeat that code over and over to build each item.  This will also make it easier for you to change or modify that layout later if needed or desired.
 
 ### Tips
 - Be sure to use all of the JavaScript coding best practices that we have discussed.
