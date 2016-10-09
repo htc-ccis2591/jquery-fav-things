@@ -10,9 +10,9 @@ $(function () {
 
         $("#game").append("<p id='gamep' class = 'hide' > I enjoy playing Role Playing Games(RPG) such as the Final Fantasy series, First Person Shooting / Shooter(FPS) games such as Call of Duty(COD) and Black Ops(BO), arcade games such as Metal Slug.</p>");
 
-        $("#movie").append("<p id='moviep' class = 'hide' > I enjoy playing Role Playing Games(RPG) such as the Final Fantasy series, First Person Shooting / Shooter(FPS) games such as Call of Duty(COD) and Black Ops(BO), arcade games such as Metal Slug.</p>");
+        $("#movie").append("<p id='moviep' class = 'hide' > I enjoyy watching movies of all genres, action, horror, comedies, documentaries, drama, sci-fi, thrillers, and anime.</p>");
 
-        $("#food").append("<p id='foodp' class = 'hide' > I enjoy playing Role Playing Games(RPG) such as the Final Fantasy series, First Person Shooting / Shooter(FPS) games such as Call of Duty(COD) and Black Ops(BO), arcade games such as Metal Slug.</p>");
+        $("#food").append("<p id='foodp' class = 'hide' > I love, LOVE food! I mean, who doesn't!? I enjoy food off all nationalities from Asian, Mexican, Thai, Greek, Italian, and American food.</p>");
     };
 
     createPage();
